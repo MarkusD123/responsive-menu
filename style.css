@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: green;
+  height: 70px;
+}
+.logo {
+  flex-grow: 1;
+  margin-top: 5px;
+}
+.logo img {
+  width: 200px;
+  margin-left: 20px;
+}
+nav ul {
+  margin-right: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+  gap: 20px;
+}
+ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+.menu-icon {
+  display: none;
+  margin-right: 30px;
+}
+.welcome {
+  width: 100vw;
+  min-height: calc(100vh - (140px));
+  background-image: url("img/background.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+footer {
+  background-color: grey;
+  height: 70px;
+}
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  padding: 5px;
+}
+.phone-container,
+.email-container {
+  display: flex;
+  gap: 10px;
+}
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+}
+form {
+  font-size: 3px;
+  margin-top: 5px;
+}
+.sign-up-button {
+  background-color: green;
+  border: 0.5px solid black;
+  padding: 1px 5px;
+  border-radius: 5px;
+}
